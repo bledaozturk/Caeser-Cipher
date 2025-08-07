@@ -5,11 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt user for input text
         System.out.print("Enter text to encrypt: ");
         String inputText = scanner.nextLine();
-
-        // Prompt user for shift key
+        
         System.out.print("Enter shift key (0-25): ");
         int shiftKey = scanner.nextInt();
 
